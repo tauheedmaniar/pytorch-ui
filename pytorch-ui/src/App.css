@@ -12,7 +12,7 @@
 
 .row {
   padding-left: 20px;
-  display: inline-flex;
+  display: flex;
   margin-bottom: 7px;
 }
 
