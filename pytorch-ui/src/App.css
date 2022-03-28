@@ -7,12 +7,14 @@
   background-color: lightgrey;
   /* border: 5px solid black; */
   margin: 50px;
-  /* width: 700px; */
+  /* display: flex; */
+  display: flex;
+  width: 700px;
 }
 
 .row {
-  padding-left: 20px;
-  display: inline-flex;
+  padding-left: 20px; 
+  flex-direction: column-reverse;
   margin-bottom: 7px;
 }
 
@@ -21,6 +23,7 @@
   padding-left: 15px; */
   padding: 10px 100px 10px 15px;
   border-left: 2px solid #f3f4f7;
+  flex-grow: 1;
 }
 
 .elements-right {
@@ -29,9 +32,16 @@
   padding: 10px 30px 10px 15px;
   margin-right: 5px;
   background-color: white;
-  width: 100px;
+  width: 120px;
 }
 
-.cursorPointor{
+.cursorPointor {
   cursor: pointer;
+}
+
+.run-command {
+  width: max-content;
+  padding: 10px 30px 10px 15px;
+  margin-right: 5px;
+  background-color: white;
 }
