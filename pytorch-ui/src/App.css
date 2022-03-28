@@ -35,3 +35,11 @@
 .cursorPointor{
   cursor: pointer;
 }
+
+.commad-runs{
+  background-color: white;
+  width: 458px;
+  margin-left: -46px;
+  border-color: white;
+
+}
