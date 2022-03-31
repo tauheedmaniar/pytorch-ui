@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+p:hover {
+  background-color:orange !important;
+}
+
 .mainBox {
   background-color: lightgrey;
   /* border: 5px solid black; */
@@ -22,6 +26,23 @@
   padding: 10px 100px 10px 15px;
   border-left: 2px solid #f3f4f7;
 }
+
+ button:hover{
+  background-color: yellow;
+ }
+
+.bgColor{
+  background-color:orange !important;
+}
+
+
+ p.disabled {
+  pointer-events: none;
+  cursor: default;
+  background-color: rgb(245, 243, 243)  !important;
+}
+  
+
 
 .elements-right {
   /* padding-right: 30px;
